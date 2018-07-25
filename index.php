@@ -2,7 +2,7 @@
 session_start();
 require_once("class.user.php");
 $login = new USER();
-
+//add comment
 if($login->is_loggedin()!="")
 {
 	$login->redirect('home.php');
